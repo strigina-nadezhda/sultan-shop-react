@@ -29,7 +29,7 @@ const Shop: FC = () => {
   return (
     <div className="catalog">
 
-      <Link to={"/"} className="btn-back_wrap"> <button className="btn-back btn"><img src="../images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
+      <Link to={"/"} className="btn-back_wrap"> <button className="btn-back btn"><img src="./images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
 
       <div className="sort-wrapper">
 
