@@ -39,7 +39,7 @@ const BasketPage: FC = () => {
   };
   return (
     <div className="bask">
-      <Link to={"/catalog"} className="btn-back_wrap"> <button className="btn-back btn"><img src="../images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
+      <Link to={"/catalog"} className="btn-back_wrap"> <button className="btn-back btn"><img src="./images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
 
 
 
