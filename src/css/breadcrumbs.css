@@ -1,0 +1,44 @@
+.breadcrumb a {
+  color: #3F4E65;
+  font-weight: 300;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.breadcrumbs-wrapper {
+  max-width: 1360px;
+  margin: auto;
+  padding: 0 15px;
+}
+@media (max-width: 1380px) {
+  .breadcrumbs-wrapper {
+    max-width: 1060px;
+  }
+}
+@media (max-width: 900px) {
+  .breadcrumbs-wrapper {
+    display: none;
+  }
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 45px 0 50px;
+}
+.breadcrumbs li {
+  border-right: 0.5px dashed #9fa7b2;
+  margin-right: 10px;
+}
+.breadcrumbs li:last-child {
+  border: none;
+}
+.breadcrumbs li:last-child a {
+  color: #9fa7b2;
+}
+.breadcrumbs li:last-child p {
+  color: #9fa7b2;
+}
+
+/*# sourceMappingURL=breadcrumbs.css.map */

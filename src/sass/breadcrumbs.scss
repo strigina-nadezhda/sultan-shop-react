@@ -1,0 +1,49 @@
+$linkColor: black;
+$blue-text-color: #3F4E65;
+
+.breadcrumb a {
+	color: $blue-text-color;
+	font-weight: 300;
+	font-size: 14px;
+	padding-right: 10px;
+
+}
+
+.breadcrumbs-wrapper {
+	max-width: 1360px;
+	margin: auto;
+	padding: 0 15px;
+
+	@media (max-width:1380px) {
+		max-width: 1060px;
+	}
+
+	@media (max-width:900px) {
+		display: none;
+	}
+}
+
+.breadcrumbs {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 45px 0 50px;
+
+	li {
+		border-right: 0.5px dashed #9fa7b2;
+		margin-right: 10px;
+
+		&:last-child {
+
+			border: none;
+
+			a {
+				color: #9fa7b2;
+			}
+
+			p {
+				color: #9fa7b2;
+			}
+		}
+	}
+}
