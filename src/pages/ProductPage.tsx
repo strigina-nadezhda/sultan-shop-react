@@ -37,7 +37,7 @@ export const ProductPage: FC = () => {
   return (
     <div className="wrapper">
       <div className="box">
-        <Link to={"/catalog"} className="btn-back_wrap"> <button className="btn-back btn"><img src="../images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
+        <Link to={"/catalog"} className="btn-back_wrap"> <button className="btn-back btn"><img src="./images/arrow-back.svg" alt="back" /></button> <p>Назад </p> </Link>
         <div className="box__left">
           <img
             className="box__left--img"
