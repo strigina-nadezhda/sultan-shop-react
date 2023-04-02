@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sultan-shop-react/static/css/main.964f9d52.css",
-    "main.js": "/sultan-shop-react/static/js/main.891dbcb2.js",
+    "main.js": "/sultan-shop-react/static/js/main.460df5e6.js",
     "static/media/basket.svg": "/sultan-shop-react/static/media/basket.7e3f10a67cbf7efab906.svg",
     "index.html": "/sultan-shop-react/index.html",
     "static/media/arrow-down.svg": "/sultan-shop-react/static/media/arrow-down.260e242d67fc23d29ab0.svg",
     "main.964f9d52.css.map": "/sultan-shop-react/static/css/main.964f9d52.css.map",
-    "main.891dbcb2.js.map": "/sultan-shop-react/static/js/main.891dbcb2.js.map"
+    "main.460df5e6.js.map": "/sultan-shop-react/static/js/main.460df5e6.js.map"
   },
   "entrypoints": [
     "static/css/main.964f9d52.css",
-    "static/js/main.891dbcb2.js"
+    "static/js/main.460df5e6.js"
   ]
 }
